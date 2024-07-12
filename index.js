@@ -1,11 +1,5 @@
 const api = "https://fsa-crud-2aa9294fe819.herokuapp.com/api/2406-ftb-et-web-ft/events"
 
-class EventCache {
-  constructor() {
-    this.cache = {};
-  }
-  
-}
 
 const getEvents = async () => {
   const response = await fetch(api);
@@ -35,7 +29,6 @@ const getEvents = async () => {
 
     ol.append(li)
   });
-  console.log(eventsArray);
 }
 
 getEvents();
