@@ -1,4 +1,4 @@
-const api = "https://fsa-crud-2aa9294fe819.herokuapp.com/api/2406-ftb-et-web-ft/events"
+const api = "https://fsa-crud-2aa9294fe819.herokuapp.com/api/2402-ftb-et-web-ft/events"
 
 
 const getEvents = async () => {
